@@ -8,10 +8,12 @@
   },
   "devDependencies": {
     "mocha": "9.1.1",
-    "supertest": "6.1.6"
+    "supertest": "6.1.6",
+    "eslint": "^8.0.0" // Added ESLint as a dev dependency
   },
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "./node_modules/.bin/mocha ./test/test.js",
+    "lint": "eslint ."
   }
 }
