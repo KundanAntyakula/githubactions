@@ -9,7 +9,7 @@
   "devDependencies": {
     "mocha": "9.1.1",
     "supertest": "6.1.6",
-    "eslint": "^8.0.0" // Added ESLint as a dev dependency
+    "eslint": "^8.0.0"
   },
   "scripts": {
     "start": "node index.js",
